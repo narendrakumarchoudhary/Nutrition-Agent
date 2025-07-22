@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./components/lightswind.css";
+
+/* Optionally: Add your keyframes */
+@layer utilities {
+  @keyframes aurora-border {
+    0%, 100% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(180deg) scale(1.05);
+    }
+  }
+
+  @keyframes aurora-1 {
+    0% { transform: translateX(-10%) translateY(-10%); }
+    100% { transform: translateX(10%) translateY(10%); }
+  }
+
+  @keyframes aurora-2 {
+    0% { transform: translateX(10%) translateY(-10%); }
+    100% { transform: translateX(-10%) translateY(10%); }
+  }
+
+  @keyframes aurora-3 {
+    0% { transform: translateX(-5%) translateY(10%); }
+    100% { transform: translateX(5%) translateY(-10%); }
+  }
+
+  @keyframes aurora-4 {
+    0% { transform: translateX(0%) translateY(-15%); }
+    100% { transform: translateX(0%) translateY(15%); }
+  }
+}
