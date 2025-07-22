@@ -11,6 +11,7 @@ const App = () => {
       <p className="text-pink-400 text-lg mt-6 z-10">
         🌸 You are my favorite person 🌸
       </p>
+      
     </div>
   );
 };

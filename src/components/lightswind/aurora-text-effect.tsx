@@ -36,18 +36,18 @@ export function AuroraText({
   textClassName,
   fontSize = "clamp(3rem, 8vw, 7rem)",
   colors = {
-    first: "bg-cyan-400",
-    second: "bg-yellow-400",
+    first: "bg-cyan-600",
+    second: "bg-pink-400",
     third: "bg-green-400",
-    fourth: "bg-purple-500",
+    fourth: "bg-purple-600",
   },
   blurAmount = "blur-lg",
   animationSpeed = {
-    border: 6,
-    first: 5,
-    second: 5,
-    third: 3,
-    fourth: 13,
+    border: 1.1,
+    first: 2,
+    second: 2,
+    third: 1,
+    fourth: 2.5,
   },
 }: AuroraTextProps) {
   return (
