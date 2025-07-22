@@ -51,10 +51,13 @@ export function AuroraText({
   },
 }: AuroraTextProps) {
   return (
-    <div className={cn(
-  "min-h-screen w-full bg-white dark:bg-black flex items-center justify-center overflow-hidden",
-  className
-)}>
+  <div
+  className={cn(
+    "bg-white dark:bg-black flex items-center justify-center",
+    className
+  )}
+>
+
 
       <div className="text-center">
         <h1 className={cn("font-extrabold tracking-tight relative overflow-hidden text-black dark:text-white", textClassName)} style={{ fontSize }}>
