@@ -7,7 +7,7 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
-API_URL = "https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/9c3a9ffe-712a-481c-95a4-6424207ecc56/ai_service_stream?version=2021-05-01"
+API_URL = "here api key me nahi btaunga"
 
 API_KEY = os.getenv("IBM_API_KEY")
 
