@@ -1,16 +1,62 @@
-<<<<<<< HEAD
-# React + Vite
+# 🥗 Nutrition Agent - AI-Powered Personalized Diet Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Nutrition Agent** is an AI-powered web application built using **React**, **Vite**, **Tailwind CSS**, and **PostCSS**. It offers personalized nutrition suggestions based on user lifestyle, allergies, preferences, and goals.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 🍽️ Personalized meal recommendations  
+- 🧠 AI-based dietary suggestions  
+- 🚫 Allergy and restriction filters  
+- 📊 Nutrition breakdown (calories, macros, etc.)  
+- 🌐 Responsive and mobile-friendly UI  
+- 🌱 Easy integration with wearable/health APIs (future-ready)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Nutrition-Agent
->>>>>>> 47cb3ee900d46e62c01d0d30dbe132129475802b
+---
+
+## 📸 Screenshots
+
+> <img width="566" height="313" alt="image" src="https://github.com/user-attachments/assets/eaed1d9e-34c6-4e93-bc36-78cc3aae9ccd" />
+
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend  | Styling       | Build Tool | Version Control |
+|-----------|---------------|------------|-----------------|
+| React.js  | Tailwind CSS  | Vite       | Git + GitHub    |
+| JSX       | PostCSS       |            |                 |
+
+---
+
+## 🧑‍💻 Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/narendrakumarchoudhary/Nutrition-Agent.git
+cd Nutrition-Agent
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the app
+npm run dev
+
+📁 Project Structure
+Nutrition-Agent/
+├── public/
+├── backend/
+    ├── app.py/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+
