@@ -22,12 +22,20 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Tech Stack
 
-| Frontend  | Styling       | Build Tool | Version Control |
-|-----------|---------------|------------|-----------------|
-| React.js  | Tailwind CSS  | Vite       | Git + GitHub    |
-| JSX       | PostCSS       |            |                 |
+### ⚛️ Frontend
+- **React.js** (with Vite)
+- **Tailwind CSS** + **PostCSS**
+
+### 🤖 AI & Backend (Optional / Connected APIs)
+- **IBM Watson /IBM Watson API
+- **Custom ML Model** (Python / Flask backend or API integration)
+- **Flask
+
+### 📦 Tooling 
+- **Git + GitHub** (version control)
+- **Vite** (build tool for blazing-fast development)
 
 ---
 
@@ -60,3 +68,15 @@ Nutrition-Agent/
 ├── package.json
 └── README.md
 
+✨ Future Scope
+🗣️ Voice-based nutrition queries
+📱 Mobile App version
+📅 Meal Planner + Shopping List
+💬 Chat with AI Dietitian
+
+🙋‍♂️ Author
+Narendra Kumar Choudhary
+📧 narendrakumarrank20@gmail.com
+
+📜 License
+---
